@@ -10,4 +10,30 @@ function toggleContent() {
       content2.style.display = "none";
     }
   }
-  
+function sendMessage(){
+  if(message.value === ""){
+
+  }
+  else{
+
+    var messageOut = message.value
+    showA.innerHTML += `<div class="modal-body"><div class="message"><h6 class="h6">${message.value}</h6></div></div>`
+    showA2.innerHTML += `<div class="modal-body"><div class="message2"><h6>${message.value}</h6></div></div>`
+
+    message.value = ""
+  }
+}  
+function sendMessage2(){
+  if(message2.value === ""){
+
+  }
+  else{
+
+    
+    showA2.innerHTML += `<div class="modal-body"><div class="message"><h6 class="h6">${message2.value}</h6></div></div>`
+    showA.innerHTML += `<div class="modal-body"><div class="message2"><h6 >${message2.value}</h6></div></div>`
+
+    message2.value = ""
+    
+  }
+} 

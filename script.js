@@ -12,7 +12,7 @@ function signUp (){
         staticBackdrop.style.display = "none"
         whole.style.display = "none"
         nav.style.display = "block"
-        document.getElementById("username").innerHTML = (firstName.value + lastName.value)
+        document.getElementById("username").innerHTML = (firstName.value)
         body.style = " background-color: white"
         
         }

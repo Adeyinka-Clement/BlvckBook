@@ -31,4 +31,4 @@ function login(){
             console.log("Condition is false");
     }
 }
-document.getElementById("username2").innerHTML = firstName.value
+document.getElementById("chatUsername").innerHTML = firstName.value

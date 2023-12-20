@@ -19,12 +19,10 @@ input:focus{
     /* border-radius: 10% !important; */
     width: 100% !important;
     border: 5px solid black !important;
-    height: 60vh !important;
+    height: 75vh !important;
 
 }
-body{
-   
-}
+
 *{
     background-color: white;
     /* overflow: hidden !important; */

@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.change{
+    border: none !important;
+}
+input:focus{
+    box-shadow: none !important;
+}
+#message{
+    
+}
+#staticBackdrop{
+    border: 5px solid black !important;
+}
+.modal-content{
+    /* border-radius: 10% !important; */
+    width: 100% !important;
+    border: 5px solid black !important;
+    height: 100vh !important;
+
+}
+*{
+    background-color: white;
+}
+label{
+    background-color: transparent !important;
+    z-index: 99 !important;
+}

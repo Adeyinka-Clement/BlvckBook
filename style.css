@@ -36,6 +36,7 @@ button:focus:hover{
 #staticBackdrop{
     z-index: 9999999999999999999 !important;
     border: 5px solid black !important;
+    
 }
 input{
     
@@ -58,6 +59,7 @@ label{
 .modal-thing{
     /* border-radius: 10% !important; */
     border: 5px solid black !important;
+    /* height: 100vh !important; */
 
 }
 #firstName{

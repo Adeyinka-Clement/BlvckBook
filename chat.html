@@ -73,7 +73,7 @@
           </nav>
 <!-- Button trigger modal -->
 <center>
-    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <button type="button" class="btn btn-dark mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Start Chat
       </button>
 </center>
@@ -83,7 +83,7 @@
     <div class="modal-dialog ">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="chatUsername"></h1>
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"><b>Clement💘💖💖</b></h1>
           <div class="change active" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             <span class="material-symbols-outlined">
                 quick_phrases
@@ -97,7 +97,7 @@
         <div class=" container col-12">
             <div class="d-flex mx-auto mb-3">
                 <div class="col-10">
-                    <input type="text" name="" id="message2" class="form-control " placeholder="Type a message">
+                    <input type="text" name="" id="message2" class="form-control " placeholder="Type a message" autofocus>
                     
                 </div>
                 <div class="col-2 pt-2 ps-3" id="contain">
@@ -120,7 +120,9 @@
   <div class="modal-dialog ">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel"><b>Clement💘💖💖</b></h1>
+        <b>
+        <h1 class="modal-title fs-5" id="chatUsername"></h1>
+        </b>
         <div  class=""  data-bs-toggle="modal" data-bs-target="#exampleModal">
             <span class="material-symbols-outlined">
                 quick_phrases
@@ -138,7 +140,7 @@
         <div class=" container col-12 me-3" >
             <div class="d-flex mx-auto mb-3" id="contain">
                 <div class=" col-10 ">
-                    <input type="text" name="" id="message" class="form-control " placeholder="Type a message">
+                    <input type="text" name="" id="message" class="form-control " placeholder="Type a message" autofocus>
                   
                 </div>
                 <button class="col-2 pt-2 ps-3 " id="send" onclick="sendMessage()">
@@ -163,6 +165,6 @@
 
 <script src="chat.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="script.js"></script>
+
 </body>
 </html>

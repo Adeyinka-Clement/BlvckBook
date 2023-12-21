@@ -37,3 +37,10 @@ function sendMessage2(){
     
   }
 } 
+ // Extract the value from URL parameter
+ const urlParams = new URLSearchParams(window.location.search);
+ const value = urlParams.get('data');
+
+ // Display the received value
+ const displayValueElement = document.getElementById('chatUsername');
+ displayValueElement.textContent = value;

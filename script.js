@@ -14,7 +14,7 @@ function signUp (){
         nav.style.display = "block"
         document.getElementById("username").innerHTML = (firstName.value)
         body.style = " background-color: white"
-        const value = document.getElementById('firstName').value + "_" + document.getElementById('lastName').value;
+        const value = document.getElementById('firstName').value+"_"+document.getElementById('lastName').value;
         window.location.href = `chat.html?data=${value}`;
         
         }
